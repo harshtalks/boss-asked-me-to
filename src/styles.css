@@ -1,0 +1,54 @@
+:root {
+  --colorSaffron: #eac435;
+  --colorBdazzledBlue: #345995;
+  --caribeanGreen: #03cea4;
+  --tartorange: #fb4d3d;
+  --pictorialCarmine: #ca1551;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--colorSaffron);
+}
+
+.heading {
+  color: var(--pictorialCarmine);
+}
+
+.items {
+  border-color: var(--colorBdazzledBlue);
+}
+
+.item {
+  border-color: var(--pictorialCarmine);
+}
+
+.newheading {
+  color: var(--tartorange);
+}
+
+.input {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  border: var(--tartorange) solid 4px;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.button {
+  cursor: pointer;
+  border: var(--colorBdazzledBlue) 6px solid;
+  opacity: 0.7;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 1;
+}
+
+#removeTop {
+  border: var(--tartorange) 6px solid;
+}

@@ -1,0 +1,9 @@
+export const _branchFactor = new WeakMap();
+export const _compare = new WeakMap();
+export const _elements = new WeakMap();
+export const _positions = new WeakMap();
+export const _bubbleUp = new WeakMap();
+export const _pushDown = new WeakMap();
+export const _setElemetToPosition = new WeakMap();
+export const _removeElementFromPosition = new WeakMap();
+export const _getElementPositions = new WeakMap();

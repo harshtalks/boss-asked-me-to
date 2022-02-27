@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>TASK ISSUE</title>
+  </head>
+  <body>
+    <div class="container p-5 mx-auto">
+      <h1 class="text-center text-3xl md:text-5xl uppercase font-bold heading">
+        BOSS ASKED YOU TO
+      </h1>
+      <p class="text-center py-2">
+        PRIORITY QUEUE IMPLEMENTED USING TYPESCRIPT
+      </p>
+      <div class="items">
+        <div class="item p-5 border-2 my-3">
+          <h2 class="font-bold text-xl">This is the Item</h2>
+          <p>Priority: 8</p>
+        </div>
+        <div class="item p-5 border-2 my-3">
+          <h2 class="font-bold text-xl">This is the Item</h2>
+          <p>Priority: 8</p>
+        </div>
+        <div class="item p-5 border-2 my-3">
+          <h2 class="font-bold text-xl">This is the Item</h2>
+          <p>Priority: 8</p>
+        </div>
+      </div>
+      <div
+        class="form my-5 md:my-8 flex justify-center flex-col border-t-2 pt-4"
+      >
+        <h1
+          class="newheading font-bold text-center text-lg md:text-5xl uppercase mb-3 md:mb-5"
+        >
+          Boss asked to add new task
+        </h1>
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="New Task"
+          class="input font-bold mb-4 py-2 px-3"
+        />
+        <input
+          id="priorityInput"
+          type="number"
+          placeholder="Priority"
+          class="input font-bold mb-4 py-2 px-3"
+        />
+        <button id="submitButton" class="font-bold border-4 py-3 button">
+          Submit
+        </button>
+        <button id="removeTop" class="font-bold border-4 my-3 py-3 button">
+          High Priority Task Done
+        </button>
+      </div>
+      <p>
+        &copy; Made By Harsh with &hearts;
+      </p>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
